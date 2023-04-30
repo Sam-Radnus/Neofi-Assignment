@@ -1,7 +1,7 @@
 import React, { useState ,useEffect } from 'react'
 import Dropdown from './Dropdown'
 const Landing = () => {
-  const [modal, setModal] = useState(true);
+  const [modal, setModal] = useState(false);
   const [currencies,setCurrencies]=useState([]);
   const [currency,setCurrency]=useState("LTCBTC");
   const [money,setMoney]=useState(0);
